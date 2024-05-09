@@ -1,0 +1,9 @@
+.NewTodoForm input {
+  margin: 5px 15px 10px 5px;
+  padding: 10px;
+}
+
+.NewTodoForm button {
+  background-color: yellowgreen;
+  border-radius: 40px;
+}

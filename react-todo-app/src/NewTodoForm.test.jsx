@@ -1,15 +1,16 @@
 import {render, fireEvent, waitFor} from "@testing-library/react";
-import App from "./App";
-import { describe, expect, it } from "vitest";
+import NewTodoForm from "./NewTodoForm";
+import { expect, it } from "vitest";
 
-describe("Color Box App Component", () => {
+
+describe("NewTodoForm Component", () => {
   it("renders without crashing", function () {
-    render(<App />);
+    render(<NewTodoForm />);
   });
   
   
   it("matches snapshot", function () {
-    const {asFragment} = render(<App />);
+    const {asFragment} = render(<NewTodoForm />);
     expect(asFragment()).toMatchSnapshot();
   });
 });

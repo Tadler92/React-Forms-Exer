@@ -2,7 +2,7 @@ import {render, fireEvent, waitFor} from "@testing-library/react";
 import App from "./App";
 import { describe, expect, it } from "vitest";
 
-describe("Color Box App Component", () => {
+describe("Todo App Component", () => {
   it("renders without crashing", function () {
     render(<App />);
   });

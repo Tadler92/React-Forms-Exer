@@ -1,0 +1,12 @@
+.Todo span {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.Todo button {
+  margin-bottom: 15px;
+  background-color: crimson;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 30px;
+}
