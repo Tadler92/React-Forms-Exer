@@ -1,0 +1,13 @@
+form label {
+  margin-left: 15px;
+}
+
+.NewBoxForm-width-range {
+  display: inline-block;
+  width: 150px;
+}
+
+.NewBoxForm-height-range {
+  display: inline-block;
+  width: 150px;
+}

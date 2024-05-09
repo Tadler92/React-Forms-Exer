@@ -1,0 +1,15 @@
+.Box {
+  display: flex;
+  align-items: center;
+}
+
+.Box div {
+  margin: 30px 15px;
+}
+
+.Box button {
+  background-color: crimson;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 40px;
+}
